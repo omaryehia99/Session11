@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    transition: background-color 0.2s linear;
+      p {
+
+        font-weight: bold;
+      }
+
+    
+}
+
+body.dark{
+   background-color:  #20232c;
+}
+body.dark p{
+    color:white;
+    font-weight: bold;
+}
+body.dark h2{
+    color:white;
+}
+body.dark .card-wrapper{
+    background-color: rgb(94, 94, 141);
+}
+body.dark .cardnumber-wrapper
+{
+    color:#fff;
+}
+body.dark .user-type
+{
+    color:rgb(161, 161, 219);;
+}
+body.dark .card-wrapper
+{
+    box-shadow: 4px 0px 4px #333539;
+
+}
+
+
+.dashboard-wrapper
+{
+    .card-wrapper
+    {
+        box-shadow: 4px 0px 4px #cccfd7;
+        .user-icon-wrapper
+        {
+            gap:10px;
+
+        }
+
+            .cardnumber-wrapper
+            {
+                font-size: 60px;
+                font-weight: 600;
+            }
+            .user-type
+            {
+              padding-bottom: 40px;
+              font-size: 20px;
+              line-height: 1.5;
+              font-weight: 300;
+             letter-spacing: 1px;
+            }
+        
+    }
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background: linear-gradient(to right, #4D97CC, #3DCE92);
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+.fa-square-facebook
+{
+    color: blue;
+}
+.fa-instagram
+{
+    color: rgb(255, 174, 0);
+}
+.fa-twitter
+{
+    color:deepskyblue
+}
+.fa-youtube
+{
+    color: red;
+}
+
+    .card-wrapper
+    {
+        
+        text-align: center;
+        border-radius: 5px;
+    }
+}
+body.dark .Ovcard-wrapper
+{
+    background-color: #617097;
+    box-shadow: 4px 0px 4px #617097;
+}
+.section2-wrapper
+{
+    padding: 40px;
+    padding-left: 50px;
+    p
+    {
+        font-size: 30px;
+    }
+    .fa-instagram
+    {
+        color: #f39c12;
+        font-size: 20px;
+    }
+    .fa-square-facebook
+    {
+        color: blue;
+        font-size: 20px;
+    }
+   .Ovcard-wrapper
+    {
+        background-color: #f3f7ff;
+        box-shadow: 4px 0px 4px #cccfd7;
+        border-radius: 2px;
+    }
+}
+
+
